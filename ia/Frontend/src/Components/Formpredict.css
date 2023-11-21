@@ -1,0 +1,28 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+label{
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+}
+.pred_form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  background: rgb(25, 55, 109);
+  border-radius: 12px;
+  height: 250px;
+}
+.pred_form label{
+  margin-top: 50px;
+}
+
+body {
+  background: linear-gradient(90deg, rgb(15, 15, 15) 25%, 
+  rgb(35, 45, 63) 50%, rgb(0, 91, 65) 75%, rgb(0, 129, 112) 100%); 
+}
